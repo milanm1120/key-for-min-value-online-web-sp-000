@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(hash)                             #argument for hash is just a placeholder
+def key_for_min_value(name_hash)                             #argument for hash is just a placeholder
   lowest_key = nil                                      #default return value will be nil
   lowest_value = nil                                    #default return value will be nil
   name_hash.each do |key, value|                        #iteration over each value pair of the key and value
